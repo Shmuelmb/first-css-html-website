@@ -1,6 +1,14 @@
-*{
-    transition: all ease-in-out 0.3s;
-}
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Raleway';
+    margin: 0;
+ 
+ }
+
 
 h3{
     font-size: 1.3rem;
@@ -9,19 +17,9 @@ h3{
     text-transform: uppercase;
 }
 
-body{
-   display: flex;
-   justify-content: center;
-   flex-direction: column;
-   align-items: center;
-   text-align: center;
-   font-family: 'Raleway';
-   margin: 0;
-
-}
 
 .header{
-    background-image: url('/images/BG-IMG.png');
+    background-image: url('images/BG-IMG.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -319,7 +317,7 @@ body{
 }
 
 .our-video{
-    background-image: url('https://s3-alpha-sig.figma.com/img/755e/85f2/d5185c4a99c80eed3abf4bf4fd684302?Expires=1670803200&Signature=LP7zrK6pZqxJp-Tav7OECMR5v3pHrhgQ4pHCZl8ubBKoivQ2zz~3EuohTL9jObfVE2OWH9GaSRkuxXBFTL4atXdVc2fEdZ6R2ktrmntqIVxwkb-vG1h~-HUKLRK2GWa1aFIbx85zTwtvE8D-FNZdSuEG~Bu~LV4Ca9dhn-mAcgfuXzGM2W9SUOLD~8kuRMP7Te4OK6tR8EqDE3nmkEIctmq3JQXD0pBedAA-JzrgV~nyDruwiINHwcNw6jD6-s5wL2VjVhzVTP1UGqwxf7p7-P0eTVEf5OHdw7dC2vghyQXEjsLdk3ObZc~0TxFHnz0K0~zMN8P-BtwPT9ry95ERtQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA');
+    background-image: url('images/bg-middle.png');
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
