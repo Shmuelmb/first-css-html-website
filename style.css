@@ -1,3 +1,7 @@
+*{
+    transition: all ease-in-out 0.3s;
+}
+
 h3{
     font-size: 1.3rem;
     letter-spacing: 0.78rem;
@@ -17,7 +21,7 @@ body{
 }
 
 .header{
-    background-image: url('https://s3-alpha-sig.figma.com/img/3fe7/53a7/44d2170c6827090c664a069a115001d3?Expires=1670803200&Signature=XlRd4nJnJAmxigPnhg2CTfexlnaBsWtWlxa-YKlixLwWunDyvsHnSZbcPi9fWU5uy~H7Aq1p-npZY5cqpg~WBWpSGOqbfj1M5nJhpXjBy~kZ7uFLFQV8UoCZHYWvVDxDiXlwyOFQQ3ZO~AgewbUpcKimOiZ4aVSbCpaOa7S~McsDRLcVmCeK9lwfvg1OOkfxW7NqNVGJOV73J77uG5pyD5trNtLd4tKlc~rs3uhi2MI5SbAps8VPZa83o2~xCrmORZJI15gDhDI037aHMwBMl8CnFpwFcjbfOHS1cexEznRehttNycydAjnSnfy72XHlVLXTAx7gqekMrgOw1ASm7g__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA');
+    background-image: url('/images/BG-IMG.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -120,17 +124,21 @@ body{
     display: flex;
     flex-direction: column;
     font-size: 13px;
-    height: 353px;
     width: 230px;
 }
 
 .box-item{
-    padding: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 300px;
     background-color: white;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
 }
 
 .box-item > h3{
+    word-spacing: 100vw; 
     font-size: 0.9rem;
     letter-spacing: 0.3rem;
 }
